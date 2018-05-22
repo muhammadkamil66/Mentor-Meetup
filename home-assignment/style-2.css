@@ -1,0 +1,217 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 15px 20px;
+}
+.container{
+	display: inline-block;
+	-webkit-box-shadow: 0px 0px 6px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 6px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 6px -2px rgba(0,0,0,0.75);
+}
+
+h1{
+	display: inline-block;
+}
+header .cloud{
+	background: #ed8534;
+	color: white;
+	display: inline-block;	
+	padding: 20px 90px;
+}
+
+header .cloud i{
+	font-size: 50px;
+}
+
+header .ruby{
+	border-bottom: 1px solid #e3e4c5;
+	margin-left: 25px;
+	margin-top: 35px;
+	position: relative;
+
+}
+header div h2{
+	color: #0f6ad2;
+
+}
+
+header .ruby:hover{
+	cursor: pointer;
+}
+
+header .ruby:hover h2{
+	color: #3daafb;
+}
+header .ruby:hover .cross{
+	display: inline-block;
+}
+
+header h2 .cross{
+	position: absolute;
+	top: 0;
+	right: 40px;
+	color: white;
+	background: darkgrey;
+	padding: 3px 5px;
+	border: 1px solid darkgrey;
+	border-radius: 20px;
+	font-size: 10px;
+	display: none;
+
+}
+
+header h2 .cross:hover{
+	background: grey;
+
+}
+
+header h2 .tooltip{
+	visibility: hidden;
+	position: absolute;
+	top: -35px;
+	right: 30px;
+	color: white;
+	background: black;
+	font-size: 15px;
+	padding: 10px;
+
+}
+
+header h2 div:hover .tooltip{
+	visibility: visible;
+}
+
+header div .location{
+	color: #828c93;
+	font-weight: bold;
+	margin-top: -10px;
+
+}
+
+header div .location span{
+	color: darkgrey;
+	padding: 10px;
+}
+
+header div .remote{
+	color: #0bb466;
+	font-weight: bold;
+	margin-top: -5px;
+
+
+}
+
+header div .remote span{
+	color: #ebc21f;
+}
+
+
+header li{
+	display: inline-block;
+	background: #ddecf6;
+	color: #6c92cb;
+	padding: 10px;
+}
+
+header ul{
+	margin-left: -37px;
+	margin-top: -10px;
+
+}
+
+
+footer div{
+	margin-left: 25px;
+	position: relative;
+
+}
+footer div h2{
+	color: #0f6ad2;
+
+}
+
+footer div:hover{
+	cursor: pointer;
+}
+
+footer div:hover h2{
+	color: #3daafb;
+}
+
+footer div:hover .cross-2{
+	display: inline-block;
+}
+
+footer h2 .cross-2{
+	position: absolute;
+	top: -13px;
+	right: 40px;
+	color: white;
+	background: darkgrey;
+	padding: 3px 5px;
+	border: 1px solid darkgrey;
+	border-radius: 20px;
+	font-size: 10px;
+	display: none;
+}
+
+footer h2 .cross-2:hover{
+	background: grey;
+}
+
+footer h2 .tooltip-2{
+	visibility: hidden;
+	position: absolute;
+	top: -48px;
+	right: 30px;
+	color: white;
+	background: black;
+	font-size: 15px;
+	padding: 10px;
+
+
+}
+
+footer h2 div:hover .tooltip-2{
+	visibility: visible;
+}
+
+footer div .location-2{
+	color: #828c93;
+	font-weight: bold;
+	margin-top: -10px;
+
+
+
+}
+
+footer div .location-2 span{
+	color: darkgrey;
+	padding: 10px;
+}
+
+footer div .remote-2{
+	color: #0bb466;
+	font-weight: bold;
+	margin-top: -5px;
+
+
+}
+
+footer div .remote-2 span{
+	color: #ebc21f;
+}
+
+
+footer li{
+	display: inline-block;
+	background: #ddecf6;
+	color: #6c92cb;
+	padding: 10px;
+}
+
+footer ul{
+	margin-left: -37px;
+	margin-top: -10px;
+
+}

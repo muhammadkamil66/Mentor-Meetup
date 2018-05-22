@@ -6,9 +6,9 @@ body{
 }
 header{
 	display: inline-block;
-	width: 320px;
+	/* width: 320px; */
 	margin-left: 35%;
-	padding: 0px 50px;
+	/* padding: 0px 50px; */
 	color: white;
 }
 li a{
@@ -45,3 +45,27 @@ ul li a:hover{
 ol li:hover{
 	color: 
 }
+
+@media all and (max-width: 550px) {
+	
+	/* .container > li {
+	  flex: 1 1 100%;
+	}
+	.search {
+	  order: 1;
+	} */
+	header{
+		margin-left: 10%;
+	}
+	h1{
+		font-size: 100px;
+		padding-right: 20px;
+		/* margin-left: -10px; */
+	}
+	ul li{
+		font-size: 70px;
+	}
+	ol li{
+		font-size: 70px;
+	}
+  }

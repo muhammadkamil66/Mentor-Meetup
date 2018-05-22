@@ -1,0 +1,193 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 15px 20px;
+}
+.container{
+	display: inline-block;
+	-webkit-box-shadow: 0px 0px 6px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 6px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 6px -2px rgba(0,0,0,0.75);
+}
+
+header{
+	display: inline-block;
+	margin-top: -21px;
+
+}
+
+header div{
+	border-bottom: 1px solid #e3e4c5;
+	margin-left: 25px;
+	margin-top: 40px;
+
+}
+
+header h1{
+	background: linear-gradient(to right,  #00cc91, #0085e3);
+	padding: 30px 82px;
+	color: white;
+}
+
+header div h2{
+	color: #0f6ad2;
+
+}
+
+header div .location{
+	color: #828c93;
+	font-weight: bold;
+	margin-top: -10px;
+	font-size: 20px;
+
+
+}
+
+header div .location span{
+	color: darkgrey;
+	padding: 10px;
+}
+
+header div .remote{
+	color: #0bb466;
+	margin-top: -5px;
+	font-weight: bold;
+}
+
+header div .remote span{
+	color: #ebc21f;
+	padding: 10px;
+}
+
+
+header li{
+	display: inline-block;
+	background: #ddecf6;
+	color: #6c92cb;
+	padding: 10px;
+}
+
+header ul{
+	margin-left: -37px;
+	margin-top: -10px;
+
+}
+
+footer div{
+	border-bottom: 1px solid #e3e4c5;
+	display: inline-block;
+	margin-left: 25px;
+
+}
+
+footer div h2{
+	color: #0f6ad2;
+	width: 70%;
+}
+
+footer div .petaluma{
+	color: #828c93;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: -10px;
+
+}
+
+footer div .petaluma span{
+	color: darkgrey;
+	padding: 10px;
+}
+
+footer div .remote-2{
+	color: #0bb466;
+	margin-top: -5px;
+	font-weight: bold;
+}
+
+footer div .remote-2 span{
+	color: #ebc21f;
+}
+
+
+footer li{
+	display: inline-block;
+	background: #ddecf6;
+	color: #6c92cb;
+	padding: 10px;
+}
+
+footer ul{
+	margin-left: -37px;
+	margin-top: -10px;
+
+}
+
+section div{
+	border-bottom: 1px solid #e3e4c5;
+	margin-left: 25px;
+
+}
+
+section div h2{
+	color: #0f6ad2;
+}
+
+section div .newyork{
+	color: #828c93;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: -10px;
+
+
+}
+
+section div .newyork span{
+	color: darkgrey;
+	padding: 10px;
+}
+
+section div .remote-3{
+	color: #0bb466;
+	margin-top: -5px;
+	font-weight: bold;
+
+}
+
+section div .remote-3 span{
+	color: #ebc21f;
+	padding: 10px;
+}
+
+
+section li{
+	display: inline-block;
+	background: #ddecf6;
+	color: #6c92cb;
+	padding: 10px;
+}
+
+section ul{
+	margin-left: -37px;
+	margin-top: -10px;
+
+}
+
+nav{
+	margin-left: 25px;
+
+
+}
+nav p{
+	width: 70%;
+	color: #909599;
+}
+
+nav button{
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 20px;
+	background: #0083ff;
+	color: white;
+	border: 5px solid #0083ff;
+	border-radius: 3px;
+	margin-bottom: 20px;
+}

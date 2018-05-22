@@ -1,0 +1,57 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 10px 22px;
+}
+
+div{
+	display: inline-block;
+	margin: 17px;
+}
+img	{
+	float: left;
+}
+
+h1{
+	color: #232222;
+}
+.star{
+	font-size: 10px;
+	position: relative;
+}
+
+.star span{
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 15px;
+	color: green;
+}
+div h3:hover{
+	border-bottom: 1px solid black;
+}
+
+
+div p:hover{
+	border-bottom: 1px solid darkgrey;
+}
+
+div .star:hover{
+	border-bottom: none;
+}
+
+div h3{
+	margin-top: 20px;
+}
+
+img{
+	 margin-bottom: 20px;
+}
+div p{
+	margin-top: -17px;
+	color: darkgrey;
+}
+
+div .star{
+	margin-top: 17px;
+	color: grey;
+}
